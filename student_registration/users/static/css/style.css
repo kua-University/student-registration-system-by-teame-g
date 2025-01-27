@@ -1,0 +1,116 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1;  /* Light grey background */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #1a1a1a; /* Dark blackish background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0044cc;  /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 18px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #003399;  /* Darker blue */
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;  /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0044cc;  /* Blue text */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input:focus, form button:focus {
+    outline: none;
+    border-color: #0044cc;  /* Blue border on focus */
+}
+
+form button {
+    background-color: #0044cc;  /* Blue button */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #003399;  /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;  /* Black footer */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
