@@ -14,7 +14,7 @@ class  SuccessView(TemplateView):
     template_name = 'payment/success.html'
 
 class CancelView(TemplateView):
-    template_name ='payement/cancel.html'
+    template_name ='payment/cancel.html'
 
 def create_checkout_session(request):
     try:
